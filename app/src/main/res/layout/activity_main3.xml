@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:background="#F9F9F9"
+    android:id="@+id/rl_principal">
+
+    <FrameLayout
+        android:id="@+id/fl_cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:paddingBottom="4dp">
+
+        <ImageView
+            android:id="@+id/iv_fotoPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/foto_perfil"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="left"/>
+
+        <ImageView
+            android:id="@+id/iv_notificacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/notificacion" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/logo_small"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Media Manzana"
+                android:textColor="#C74765"
+                android:textSize="10sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_opciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/opciones"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_cuerpo"
+        android:layout_below="@id/fl_cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/foto" />
+
+        <LinearLayout
+            android:id="@+id/ll_botones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_foto"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_corazon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/corazon" />
+
+            <ImageView
+                android:id="@+id/iv_mensajes"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/mensajes" />
+
+            <ImageView
+                android:id="@+id/iv_galeria"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/galeria" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_botones"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:text="Información básica"
+            android:textColor="#504F4F"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:text="Nombre de la persona"
+            android:textColor="#C74765"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_origen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nombre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ubicacion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Origen"
+                android:textColor="#504F4F"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_origen"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="11dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:text="Sexo: Femenino"
+                android:textColor="#504F4F"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:text="Edad: 22"
+                android:textColor="#504F4F"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:text="Altura: 1.5 mts"
+                android:textColor="#504F4F"
+                android:textSize="11sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="5dp"
+                android:text="Color de ojos: Negros"
+                android:textColor="#504F4F"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

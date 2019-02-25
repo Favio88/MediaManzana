@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main25Activity"
+    android:background="#F9F9F9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_politica"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="#C74765"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/atras_rosa" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Política de privacidad"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis urna a sapien efficitur mattis. Vestibulum eget elementum velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi malesuada est eget mi sodales, a vestibulum tellus aliquam. Quisque eget tempor nunc. Nunc libero purus, suscipit vitae tempor eu, bibendum at ipsum. Suspendisse elit nibh, accumsan eu arcu bibendum, egestas porta ligula.
+
+In arcu justo, tincidunt id enim vitae, interdum aliquam nibh. Maecenas risus magna, facilisis ac eros at, aliquam porttitor ex. Curabitur eget turpis felis. Mauris ac consectetur erat, quis vestibulum urna. Nam id risus ipsum. Vivamus imperdiet dolor finibus ipsum eleifend lobortis. Sed non augue a tortor ultrices sodales in in sem. Vestibulum condimentum risus aliquam pellentesque rhoncus. Nunc ut nulla enim. Ut sagittis efficitur dui, non tempor turpis iaculis a. Aliquam sit amet velit finibus, viverra sapien eu, posuere libero. Ut imperdiet odio non nulla facilisis auctor. Cras auctor erat sapien, ac tincidunt sem lacinia eu. Fusce vel orci suscipit, euismod magna id, scelerisque tortor. Sed ut purus iaculis lacus feugiat luctus sit amet id est."
+                android:textSize="13sp"
+                android:textColor="#707070"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

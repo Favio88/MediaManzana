@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="63dp"
+        android:layout_height="60dp"
+        android:background="@drawable/logo_blanco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media Manzana"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#3447EC"
+        android:text="Continuar con Facebook"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        android:text="Continuar con Google"
+        android:textColor="#656565"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_correo"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="#C74765"
+        android:text="Inicia sesión con tu correo"
+        android:layout_marginTop="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suscríbete con nosotros. "
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/tv_irRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ir a registro"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
